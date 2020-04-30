@@ -320,38 +320,38 @@ public class ForLoops {
 		
 //		Practice pattern 5
 //		
-//		int n = sc.nextInt();
-//		
-//		for(int i=1; i<=n; i++) {
-//			for(int j=1; j<=n-i+1; j++) {
-//				System.out.print("*  ");
-//			}
-//			for(int j=1; j<=2*i-1; j++) {
-//				System.out.print("   ");
-//			}
-//			for(int j=1; j<=n-i+1; j++) {
-//				System.out.print("*  ");
-//			}
-//			System.out.println();
-//		}
-//		for(int i=1; i<=n-2; i++) {
-//			for(int j=1; j<=2*n+1; j++) {
-//				System.out.print("   ");
-//			}
-//			System.out.println();
-//		}
-//		for(int i=1; i<=n; i++) {
-//			for(int j=1; j<=i; j++) {
-//				System.out.print("*  ");
-//			}
-//			for(int j=1; j<=2*n-2*i+1; j++) {
-//				System.out.print("   ");
-//			}
-//			for(int j=1; j<=i; j++) {
-//				System.out.print("*  ");
-//			}
-//			System.out.println();
-//		}
+		int n = sc.nextInt();
+		
+		for(int i=1; i<=n; i++) {
+			for(int j=1; j<=n-i+1; j++) {
+				System.out.print("*  ");
+			}
+			for(int j=1; j<=2*i-1; j++) {
+				System.out.print("   ");
+			}
+			for(int j=1; j<=n-i+1; j++) {
+				System.out.print("*  ");
+			}
+			System.out.println();
+		}
+		for(int i=1; i<=n-2; i++) {
+			for(int j=1; j<=2*n+1; j++) {
+				System.out.print("   ");
+			}
+			System.out.println();
+		}
+		for(int i=1; i<=n; i++) {
+			for(int j=1; j<=i; j++) {
+				System.out.print("*  ");
+			}
+			for(int j=1; j<=2*n-2*i+1; j++) {
+				System.out.print("   ");
+			}
+			for(int j=1; j<=i; j++) {
+				System.out.print("*  ");
+			}
+			System.out.println();
+		}
 		
 //		Practice-pattern 6
 //		
@@ -381,20 +381,20 @@ public class ForLoops {
 //		}
 	
 //		Practice pattern 9
-		
-		int n = sc.nextInt();
-		System.out.println("*");
-		
-		for(int i=1; i<=n-2; i++) {
-			for(int j=1; j<=n-2; j++) {
-				
-			}
-		}
-			
-		for(int i=1; i<=n; i++) {
-			System.out.print("* ");
-		}
-		
+//		
+//		int n = sc.nextInt();
+//		System.out.println("*");
+//		
+//		for(int i=1; i<=n-2; i++) {
+//			for(int j=1; j<=n-2; j++) {
+//				
+//			}
+//		}
+//			
+//		for(int i=1; i<=n; i++) {
+//			System.out.print("* ");
+//		}
+//		
 		
 		
 		
